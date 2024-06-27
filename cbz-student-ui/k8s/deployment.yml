@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: student-app
-          image: your-image-name:tag  # Replace with your actual image name and tag
+          image: docker push tushar2809/student-app:latest  
           ports:
             - containerPort: 8080
 
